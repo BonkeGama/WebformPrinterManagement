@@ -56,7 +56,7 @@ public partial class UserManagemennt : System.Web.UI.Page
         message.BodyEncoding = Encoding.UTF8;
         message.IsBodyHtml = true;
         SmtpClient client = new SmtpClient("smtp.outlook.com", 587);
-        System.Net.NetworkCredential basicCredential = new System.Net.NetworkCredential("bonkegama@outlook.com", "1@Miselolwam");
+        System.Net.NetworkCredential basicCredential = new System.Net.NetworkCredential("bonkegama@outlook.com", "1@****");
         client.EnableSsl = true;
         client.UseDefaultCredentials = true;
         client.Credentials = basicCredential;
